@@ -1,0 +1,53 @@
+.box1 {
+ background-color:yellow;
+ width:150px;
+ height:150px;
+ margin:25px;
+ animation-name:design;
+ animation-duration:1s;
+ animation-timing-function:ease-in-out;
+ animation-iteration-count:4;
+ animation-direction: alternate-reverse;
+
+}
+.box2 {
+ background-color:yellow;
+ width:150px;
+ height:150px;
+ margin:25px;
+ animation-name:design;
+ animation-duration:1s;
+ animation-timing-function:ease-in-out;
+ animation-iteration-count:4;
+ animation-direction: alternate;
+
+}
+
+
+
+
+
+@keyframes design {
+    from  {
+        background-color:red;
+        height:0px;
+        width:0px;
+        border-radius:0px
+        transform:translate (10px,10px) rotate(0deg) scale(1)
+        
+    }
+   
+    to {
+        background-color:green;
+        height:100px;
+        width:100px;
+        border-radius:75px;
+        transform:translate(200px,200px) rotate(360deg) scale
+    }
+
+    
+}
+.box1{
+    text-align:center;
+    padding:40px;
+}
